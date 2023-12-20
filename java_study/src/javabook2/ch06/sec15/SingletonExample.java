@@ -9,6 +9,12 @@ public class SingletonExample {
 //		Singleton single1 = Singleton.getInstance();
 //		Singleton single3 = Singleton.getInstance();
 		
+		single.num = 10;
+		System.out.println(single.num);
+		
+		single.func();
+		
+		
 	}
 
 }

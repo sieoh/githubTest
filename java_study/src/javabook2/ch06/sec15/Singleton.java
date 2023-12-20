@@ -8,6 +8,7 @@ public class Singleton {
 	
 	// 필드
 	private static Singleton single = new Singleton();
+	int num;
 	
 	// 생성자
 	private Singleton() {
@@ -18,5 +19,7 @@ public class Singleton {
 	public static Singleton getInstance() {
 		return single;
 	}
-	
+	void func() {
+		System.out.println("함수입니다");
+	}
 }
